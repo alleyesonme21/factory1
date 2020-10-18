@@ -43,7 +43,7 @@ _
 - C#
 - .Net
 _ Mvc
-Asp.NetCore
+- Asp.NetCore
 ## License
 Copyright (c) 2020 Johnny Duverseau
 
