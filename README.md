@@ -22,18 +22,40 @@ This backend application is for Dr. Sillystringz's Factory. The application allo
 6. When a user clicks one of the machine names "Bentley," they are taken to a page where the engineers assigned to work on that machine are listed. The user can delete or add more engineers to the list. 
 
 7. When a user clicks "Add New Machine," they are taken to a form where can add a new machine including the machine name and the engineer's name who is licensed to work on it. The user has the option not to assign the machine to any engineer too. 
-_
 
-## Setup/Installation Requirements;
-- Git clone 
-- Open terminal 
-- cd HairSalon.Solution
-- Open in vsCode
-- dotnet restore
-- donet build
+
+## Setup/Installation Requirements
+_To set up and install, follow the instructions to clone the repository._ 
+
+* To clone: 
+- Visit GitHub and clone the repository 
+- Open your terminal 
+- Type “git clone” in the terminal, paste the GitHub URL, and press enter
+- Type “code .” and the folder will open in your VScode
+- Type “dotnet restore” and press enter 
+- Type” dotnet  build” and press enter
+- Type “dotnet run” in GitBash and your program will run 
+ ## Database Setup
+To set up the database, follow the instructions below. 
+
+* To set up: 
+
+_Create an appsettings.json file and add the code in the image below; don’t forget to change your password_
+
+```
+ {
+ "ConnectionStrings": 
+  {
+     "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=root;pwd=password;"
+  }
+ }
+ ```
+
+- Open your terminal and type “dotnet restore”
+- dotnet build 
 - dotnet ef migrations add Initial
-- dotnet ef database update  
-- dotnet run
+- dotnet ef database update
+- Then, type “dotnet run” 
 
 ## Support and contact details
 - Discord: duverseaujohnny21 #2298
