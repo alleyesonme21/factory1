@@ -12,7 +12,7 @@ namespace Factory.Models
         public int EngineerId { get; set; }
         public string Name { get; set; }
         public string Date {get; set;}
-        public int Rate {get; set;}
+        public string Phone {get; set;}
         public virtual ICollection<EngineerMachine> Machines { get; set; }
     }
 }
