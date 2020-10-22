@@ -20,7 +20,7 @@ else
   {
     <li>Name: @join.Engineer.Name</li>
     <li>Date: @join.Engineer.Date</li>
-    <li>Rate:$ @join.Engineer.Phone</li>
+    <li>Phone: @join.Engineer.Phone</li>
     @using (Html.BeginForm("DeleteEngineer", "Machines"))
     {
       @Html.Hidden("joinId", @join.EngineerMachineId)

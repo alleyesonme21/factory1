@@ -25,7 +25,7 @@ namespace Factory.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<int>("Rate");
+                    b.Property<string>("Phone");
 
                     b.HasKey("EngineerId");
 

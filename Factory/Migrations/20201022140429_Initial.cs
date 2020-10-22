@@ -15,7 +15,7 @@ namespace Factory.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
                     Date = table.Column<string>(nullable: true),
-                    Rate = table.Column<int>(nullable: false)
+                    Phone = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
