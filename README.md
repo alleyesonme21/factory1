@@ -46,7 +46,7 @@ _Create an appsettings.json file and add the code in the image below; don’t fo
  {
  "ConnectionStrings": 
   {
-     "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=root;pwd=password;"
+     "DefaultConnection": "Server=localhost;Port=3306;database=Factory;uid=root;pwd=password;"
   }
  }
  ```
